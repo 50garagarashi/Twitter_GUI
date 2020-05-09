@@ -2,7 +2,7 @@ import json
 import pandas as pd
 from requests_oauthlib import OAuth1Session
 from pprint import pprint
-from config import config
+import config
 
 CK = config.CK
 CS = config.CS
